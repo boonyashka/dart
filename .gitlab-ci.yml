@@ -1,0 +1,10 @@
+include:
+  - project: gitlab-ci-template/no-name-template-project
+    file: general/build-common.yml
+    ref: v2.0.3
+    inputs:
+          project: appsec-platform
+  - project: gitlab-ci-template/application-security/qa-pack-and-upload
+    file: qa-pack-and-upload.yml
+    ref: main
+  

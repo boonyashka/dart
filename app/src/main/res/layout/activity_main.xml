@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/run_output_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:exported="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/runAllId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/run_all" />
+        <Button
+            android:id="@+id/runAllFlutterId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/run_all_flutter" />
+        <TextView
+            android:id="@+id/runOutputId"
+            android:layout_width="match_parent"
+            android:layout_height="517dp"
+            android:singleLine="false"
+            android:text="@string/output" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

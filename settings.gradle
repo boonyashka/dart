@@ -1,0 +1,2 @@
+// Include the host app project.
+include ':app'
